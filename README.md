@@ -13,7 +13,7 @@ xsd.exe ..\common\UBL-CommonExtensionComponents-2.1.xsd ..\common\UBL-CommonBasi
 
 
 Library .Net Standard olarak hazırlandı.
-Yani hem .Net Framwork projelerinde hemde .Net Core projelerinde kullanabilirsiniz.
+Yani hem .Net Framework projelerinde hemde .Net Core projelerinde kullanabilirsiniz.
 
 
 # Kullanım örneği
