@@ -1,8 +1,8 @@
 # UBLTR 1.2.1 C# Library
-GİB e-fatura, e-arşiv için gerekli olan UBLTR class yapısı
+GİB e-fatura ve e-arşiv için gerekli olan UBLTR class yapısı
 
 
-Gelir İdaresi Başkanlığına ait olan siteden indirilen UBL-TR1.2.1 paketine ait olan xsd dosyaları cs dosyası oluşturuldu 
+Gelir İdaresi Başkanlığına ait olan siteden indirilen UBL-TR1.2.1 paketine ait olan xsd dosyaları kullanılarak cs dosyası oluşturuldu 
 
 https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBL-TR1.2.1_Paketi.zip
 
@@ -12,7 +12,7 @@ xsd.exe ..\common\UBL-CommonExtensionComponents-2.1.xsd ..\common\UBL-CommonBasi
 ```
 
 
-Library .Net Standart olarak hazırlandı.
+Library .Net Standard olarak hazırlandı.
 Yani hem .Net Framwork projelerinde hemde .Net Core projelerinde kullanabilirsiniz.
 
 
