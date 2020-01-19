@@ -12,6 +12,9 @@ namespace UBLTR.Invoice_2_1
 
         public static InvoiceType Create(string xml)
         {
+            //Bu replace işlemini yapmayınca deserialize olmuyor
+            xml = xml.Replace("<ext:ExtensionContent/>", "<ext:ExtensionContent></ext:ExtensionContent>");
+
             XmlSerializer serialize = new XmlSerializer(typeof(InvoiceType));
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(xml)))
             {
